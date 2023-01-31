@@ -36,11 +36,11 @@ listen.mode=getifaddrs
 
 [logging]
 default.filename=@DIONAEA_LOGDIR@/dionaea.log
-default.levels=all
+default.levels=error
 default.domains=*
 
 errors.filename=@DIONAEA_LOGDIR@/dionaea-errors.log
-errors.levels=warning,error
+errors.levels=error
 errors.domains=*
 
 [processor.filter_emu]
