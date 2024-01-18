@@ -139,7 +139,7 @@ install_available_python_config(
         hpfeeds.yaml
         log_db_sql.yaml.in
         log_incident.yaml.in
-        log_json.yaml.in
+        log_json.yaml
         log_sqlite.yaml.in
         nfq.yaml
         p0f.yaml
@@ -159,6 +159,7 @@ install_enabled_python_config(
         emuprofile.yaml
         ftp.yaml
         log_sqlite.yaml
+        log_json.yaml
         store.yaml
         tftp_download.yaml
 )
